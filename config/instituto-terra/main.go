@@ -22,7 +22,7 @@ var Endpoints = []model.EndPoint{
 		Status:  pkg.GetStatus(Url, "/cadastro/aluno"),
 	}, {
 		Path:    "/esqueci-a-senha",
-		PathAKA: "Pagina de Esqueci a senha",
+		PathAKA: "Pagina de Esqueci a Senha",
 		Status:  pkg.GetStatus(Url, "/esqueci-a-senha"),
 	},
 }
